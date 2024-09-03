@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Pete Johanson, Kurtis Lew
+# SPDX-License-Identifier: MIT
+
+config SHIELD_GUILLEM_LEFT
+    def_bool $(shields_list_contains,guillem_left)
+
+config SHIELD_GUILLEM_RIGHT
+    def_bool $(shields_list_contains,guillem_right)

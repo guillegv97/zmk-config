@@ -19,6 +19,6 @@
 ---
 include:
   - board: nrf52840_m2
-    shield: iris_left
+    shield: guillem_left
   - board: nrf52840_m2
-    shield: iris_right
+    shield: guillem_right
