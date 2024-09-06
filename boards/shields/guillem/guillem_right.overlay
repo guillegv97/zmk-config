@@ -5,6 +5,7 @@
  */
 
 #include "guillem.dtsi"
+#include "macros.dtsi"
 
 &default_transform {
     col-offset = <6>;
