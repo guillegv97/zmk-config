@@ -13,20 +13,13 @@
         // Macro para enviar ñ minúscula (AltGr + N)
         macro_n_tilde: macro_n_tilde {
             label = "n_tilde";
-            bindings = <
-                &kp ALGR    // AltGr (Right Alt)
-                &kp N       // N
-            >;
+            bindings = <&kp N>;
         };
 
         // Macro para enviar Ñ mayúscula (Shift + AltGr + N)
         macro_N_tilde: macro_N_tilde {
             label = "N_tilde";
-            bindings = <
-                &kp LSHIFT  // Shift
-                &kp ALGR    // AltGr (Right Alt)
-                &kp N       // N
-            >;
+            bindings = <&kp N>;
         };
     };
 
