@@ -15,10 +15,10 @@
     macros {
         macro_n_tilde: macro_n_tilde {
             label = "n_tilde";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp Z &kp M &kp K>
-                , <&macro_release &kp LSHFT>
+                = <&kp Z>
                 ;
         };
     };
