@@ -16,7 +16,7 @@
         macro_n_tilde: macro_n_tilde {
             label = "n_tilde";
             bindings = <
-                &kp RALT
+                &kp ALGR
                 &kp N  // Envía AltGr + N para ñ (suponiendo que uses el layout español)
             >;
         };
@@ -24,7 +24,7 @@
             label = "N_tilde";
             bindings = <
                 &kp LSHIFT
-                &kp RALT
+                &kp ALGR
                 &kp N  // Shift + AltGr (Right Alt) + N para Ñ
             >;
         };
