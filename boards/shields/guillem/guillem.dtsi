@@ -12,6 +12,21 @@
         zmk,matrix-transform = &default_transform;
     };
 
+    macros {
+        macro_n_tilde: macro_n_tilde {
+            label = "n_tilde";
+            bindings = <
+                &kp RA(N)  // Envía AltGr + N para ñ (suponiendo que uses el layout español)
+            >;
+        };
+        macro_N_tilde: macro_N_tilde {
+            label = "N_tilde";
+            bindings = <
+                &kp LS(N)  // Envía Shift + N para Ñ
+            >;
+        };
+    };
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <16>;
