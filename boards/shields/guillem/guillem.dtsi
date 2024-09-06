@@ -15,11 +15,19 @@
     macros {
         macro_n_tilde: macro_n_tilde {
             label = "n_tilde";
-            bindings = <&kp n>;
+            bindings
+    = <&kp F &kp A &kp S &kp T>
+    , <&macro_wait_time 500>
+    , <&kp S &kp L &kp O &kp W>
+    ;
         };
         macro_N_tilde: macro_N_tilde {
             label = "N_tilde";
-            bindings = <&kp N>;
+            bindings
+    = <&kp F &kp A &kp S &kp T>
+    , <&macro_wait_time 500>
+    , <&kp S &kp L &kp O &kp W>
+    ;
         };
     };
 
