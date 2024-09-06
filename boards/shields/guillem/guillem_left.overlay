@@ -5,7 +5,6 @@
  */
 
 #include "guillem.dtsi"
-#include "macros.dtsi"
 
 &kscan0 {
     col-gpios
