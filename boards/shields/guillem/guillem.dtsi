@@ -12,17 +12,6 @@
         zmk,matrix-transform = &default_transform;
     };
 
-    macros {
-        macro_n_tilde: macro_n_tilde {
-            label = "n_tilde";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 0>;
-        };
-    };
-
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <16>;
