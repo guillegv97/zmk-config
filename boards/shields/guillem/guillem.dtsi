@@ -15,18 +15,11 @@
     macros {
         macro_n_tilde: macro_n_tilde {
             label = "n_tilde";
-            bindings = <
-                &kp ALGR
-                &kp N  // Envía AltGr + N para ñ (suponiendo que uses el layout español)
-            >;
+            bindings = <&kp n>;
         };
         macro_N_tilde: macro_N_tilde {
             label = "N_tilde";
-            bindings = <
-                &kp LSHIFT
-                &kp ALGR
-                &kp N  // Shift + AltGr (Right Alt) + N para Ñ
-            >;
+            bindings = <&kp N>;
         };
     };
 
