@@ -11,10 +11,10 @@
         };
 
         // Macro para enviar Ñ mayúscula (Shift + AltGr + N)
-        //macro_N_tilde: profile_macro_N_tilde {
-        //    compatible = "zmk,behavior-macro";
-        //    #binding-cells = <0>;
-        //    bindings = <&kp N>;
-        //};
+        macro_N_mayus_tilde: profile_macro_N_mayus_tilde {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N>;
+        };
     };
 };
